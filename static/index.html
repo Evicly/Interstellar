@@ -381,6 +381,14 @@ input:checked + label:after {
         </div>
         </div>
         </center class="center">
+        <script>
+          var vortex_fields = decodeURI(window.location.search.slice(1)).split("|");
+          var vortex_username = vortex_fields[0];
+          var vortex_token = vortex_fields[1];
+        if (!vortex_username || vortex_token !== "3AKcwt0VOZn29LhtEaRh4hjK8tSK42CQ") {
+              window.location.href = "https://vortex-os.glitch.me/"
+        }
+        </script>
     <script src="assets/scripts/index.js?v=9"></script>
     <script src="./m/bundle.js?v=5"></script>
     <script src="./m/config.js?v=5"></script>
