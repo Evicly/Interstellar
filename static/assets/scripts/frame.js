@@ -98,7 +98,7 @@ fullscreenButton.addEventListener('click', function () {
 // Home
 const homeButton = document.getElementById('home-page')
 homeButton.addEventListener('click', function () {
-  window.location.href = './'
+  window.location.href = './?%24VtX%25%23MB3R%404%7C3AKcwt0VOZn29LhtEaRh4hjK8tSK42CQ'
 })
 // Back
 function goBack() {
